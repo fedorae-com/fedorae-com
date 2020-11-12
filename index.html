@@ -10,46 +10,30 @@
       background-color: #000000;
       text-align: center;
     }
-    a {
-      text-decoration: none;
-      margin: 0 1rem 0 1rem;
+    h1 {
+      text-align: center;
       color: #ffffff;
     }
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      margin: 0 1rem 0 1rem;
+    }
     a:hover {
-      text-decoration: underline;
+      text-decoration: underspanne;
     }
     @media only screen and (min-width: 767px) {
     /* For mobile phones: */
-      ul {
-        list-style: none;
-        display: inline-flex;
-        margin: 0;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        padding: 0;
-        columns: 2;
-        column-rule: 1px solid;
-        list-style-type: none;
+      span {
+        display: inline-block;
       }
     }
     @media only screen and (max-width: 767px) {
     /* For mobile phones: */
-      ul {
-        list-style: none;
+      span {
         display: inline-block;
-        margin: 0;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        padding: 0;
-        columns: 2;
-        column-rule: 1px solid;
-        list-style-type: none;
+        margin: 0 1rem 0 1rem;
+        margin-bottom: 2rem;
       }
     }
   </style>
@@ -57,16 +41,32 @@
 <body>
   <div id="main">
     <div>
-      <p style="text-align: center; margin-top: 10%;"><a href="https://fedorae.herokuapp.com" target="_blank">Fedorae.com</a></p>
+      <p style="text-aspangn: center; margin-top: 10%;"><a href="https://fedorae.herokuapp.com" target="_blank">Fedorae.com</a></p>
     </div>
-    <ul>
-      <li><a href="https://www.youtube.com/channel/UCgItcvqYx2IEZXShOZrwP4g" target="_blank">YouTube</a></li> |
-      <li><a href="https://instagram.com/fedorae_" target="_blank">Instagram</a></li> |
-      <li><a href="https://fedorae.herokuapp.com" target="_blank">Facebook</a></li> |
-      <li><a href="https://fedorae.herokuapp.com" target="_blank">LinkedIn</a></li> |
-      <li><a href="https://fedorae.herokuapp.com" target="_blank">Twitter</a></li> |
-      <li><a href="https://fedorae.herokuapp.com" target="_blank">Discord</a></li>
-    </ul>
+    <div id="projects">
+      <h1>Projects</h1>
+      <div>
+        <span><a href="https://fedorae.herokuapp.com" target="_blank">Fedorae.com</a></span> |
+        <span><a href="https://languagecentre.netspanfy.app" target="_blank">LanguageCentre</a></span> |
+        <span><a href="https://tutorion.netspanfy.app" target="_blank">Tutorion</a></span> |
+        <span><a href="https://fedorae.herokuapp.com" target="_blank">BRHS</a></span> |
+        <span><a href="https://fedorae.herokuapp.com" target="_blank">CVRS</a></span> |
+        <span><a href="https://fedorae.herokuapp.com" target="_blank">Fedorae Bank</a></span>
+      </div>
+
+    </div>
+    <div id="social">
+      <h1>Social Media</h1>
+      <div>
+        <span><a href="https://www.youtube.com/channel/UCgItcvqYx2IEZXShOZrwP4g" target="_blank">YouTube</a></span> |
+        <span><a href="https://instagram.com/fedorae_" target="_blank">Instagram</a></span> |
+        <span><a href="https://fedorae.herokuapp.com" target="_blank">Facebook</a></span> |
+        <span><a href="https://fedorae.herokuapp.com" target="_blank">LinkedIn</a></span> |
+        <span><a href="https://fedorae.herokuapp.com" target="_blank">Twitter</a></span> |
+        <span><a href="https://fedorae.herokuapp.com" target="_blank">Discord</a></span> |
+        <span><a href="https://github.com/fedorae-com" target="_blank">GitHub</a></span>
+      </div>
+    </div>
   </div>
 </body>
 </html>
